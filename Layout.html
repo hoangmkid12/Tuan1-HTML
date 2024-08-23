@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .wrapper {
+            width: 1080px;
+            height: 800px;
+            margin: 0 auto;
+            background-color: aliceblue;
+            border: 1px solid brown;
+        }
+        .top-menu {
+            width: 1080px;
+            height: 60px;
+            background-color: rgb(147, 183, 214);
+            text-align: center;
+            line-height: 60px;
+        }
+        header {
+            width: 1080px;
+            height: 150px;
+            background-color: rgb(228, 240, 120);
+            text-align: center;
+            line-height: 150px;
+        }
+        .content {
+            width: 1080px;
+            height: 500px;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid brown;
+            display: flex;
+        }
+        .left-menu {
+            width: 200px;
+            height: 500px;
+            background-color: rgb(144, 238, 144);
+            text-align: center;
+            line-height: 500px;
+        }
+        .main-content {
+            width: 680px;
+            height: 500px;
+            background-color: rgb(211, 211, 211);
+            text-align: center;
+            line-height: 500px;
+        }
+        .right-menu {
+            width: 200px;
+            height: 500px;
+            background-color: rgb(255, 192, 203);
+            text-align: center;
+            line-height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-menu">Menu</div>
+        <header>Đầu trang</header>
+        <div class="content">
+            <div class="left-menu">Menu trái</div>
+            <div class="main-content">Nội dung trái</div>
+            <div class="right-menu">Nội dung phải</div>
+        </div>
+    </div>
+</body>
+</html>
